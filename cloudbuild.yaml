@@ -1,0 +1,6 @@
+# Cloud builder for the App1 builder.
+
+steps:
+- name: 'gcr.io/cloud-builders/docker'
+  args: ['build', '--tag=gcr.io/stg-sviridov/app_builder', '.']
+images: ['gcr.io/stg-sviridov/app_builder']
