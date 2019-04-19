@@ -2,5 +2,5 @@
 
 steps:
 - name: 'gcr.io/cloud-builders/docker'
-  args: ['build', '--tag=gcr.io/integ-asviridov/app_builder', '.']
-images: ['gcr.io/integ-asviridov/app_builder']
+  args: ['build', '--tag=gcr.io/integ-sviridov/app_builder', '.']
+images: ['gcr.io/integ-sviridov/app_builder']
