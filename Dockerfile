@@ -13,4 +13,4 @@ RUN dpkg -i packages-microsoft-prod.deb
 RUN add-apt-repository universe
 RUN apt-get install apt-transport-https
 RUN apt-get update
-RUN apt-get install dotnet-sdk-2.1  -y
+RUN apt-get install dotnet-sdk-2.2  -y
